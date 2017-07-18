@@ -1,0 +1,96 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  z-index: 1;
+  background-color: black;
+}
+
+a {
+  color: seashell;
+}
+
+#logo {
+  height: 50px;
+  margin-left: 10px;
+  float: left;
+}
+
+nav {
+  text-align: right;
+}
+
+#container {
+    height: 700px;
+    background-image: url("/Users/Riya/Dropbox/Projects/TeaCozy/Resources/Images/img-mission-background-1.jpg");
+    padding-top: 70px;
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mission {
+  background-color: black;
+  width: 1200px;
+}
+
+.food {
+  height: 200px;
+  width: 300px;
+}
+
+#month {
+    width: 1000px;
+    margin: auto;
+}
+
+#m-content {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#locations {
+  background-image: url("/Users/Riya/Dropbox/Projects/TeaCozy/Resources/Images/img-locations-background-1.jpg");
+  height: 500px;
+  padding-top: 70px;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-position: center;
+}
+
+.places {
+  background-color: black;
+  width: 300px;
+  margin-right: 40px;
+  opacity: 1;
+}
+
+#l-content {
+  display: inline-flex;
+  align-content: center;
+  justify-content: center;
+  margin: auto;
+}
+
+#contact {
+  height: 200px;
+}
+
+#copy {
+  text-align: left;
+  margin-left: 20px;
+}
